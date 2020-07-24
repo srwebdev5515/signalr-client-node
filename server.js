@@ -1,5 +1,3 @@
-var http = require('http');
-
 var signalR = require('signalr-client');
 var client  = new signalR.client(
 	"https://kioskserver-qa.azurewebsites.net/signalr",  //signalR service URL
